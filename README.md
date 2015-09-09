@@ -8,7 +8,7 @@ To enable fail2ban for tightvncserver do the following:
 ```
 [tighvnc-auth]
 enabled = true
-port = <YOUR VNC PORT>
+port = 5901
 filter = tighvnc-auth
 logpath = <YOUR LOGPATH (example: /home/<user>/.vnc/*.log)>
 bantime = 86400
@@ -16,4 +16,4 @@ findtime = 3600
 maxretry = 3
 ```
 
-3) Adjust port and logpath according to your tightvnc-installtion.
+3) Adjust logpath according to your tightvnc-installtion.
