@@ -3,7 +3,7 @@ To enable fail2ban for tightvncserver do the following:
 
 1) Add tighvnc-auth.conf to /etc/fail2ban/filter.d
 
-2) Add following to /etc/fail2ban/jail.conf
+2) Add the following to /etc/fail2ban/jail.conf
 
 ```
 [tighvnc-auth]
